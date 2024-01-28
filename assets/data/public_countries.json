@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Colombia",
+    "latitude": 4.099917,
+    "longitude": -72.9088133
+  },
+  {
+    "name": "Ecuador",
+    "latitude": -1.3397668,
+    "longitude": -79.3666965
+  },
+  {
+    "name": "Argentina",
+    "latitude": -34.9964963,
+    "longitude": -64.9672817
+  },
+  {
+    "name": "Bolivia",
+    "latitude": -17.0568696,
+    "longitude": -64.9912286
+  },
+  {
+    "name": "Peru",
+    "latitude": -6.8699697,
+    "longitude": -75.0458515
+  },
+  {
+    "name": "Nicaragua",
+    "latitude": 12.6090157,
+    "longitude": -85.2936911
+  },
+  {
+    "name": "Republica Dominicana",
+    "latitude": 19.0974031,
+    "longitude": -70.3028026
+  },
+  {
+    "name": "Uruguay",
+    "latitude": -32.8755548,
+    "longitude": -56.0201525
+  },
+  {
+    "name": "España",
+    "latitude": 39.3260685,
+    "longitude": -4.8379791
+  },
+  {
+    "name": "Honduras",
+    "latitude": 15.2572432,
+    "longitude": -86.0755145
+  }
+]

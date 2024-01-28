@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+	overflow: hidden;
+	margin: 0;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	background-color: #01070e !important;
+}
+
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1; /* Asegura que esté detrás de todo */
+}
+
+#watermark {
+	position: absolute;
+	top: 10px;    /* Ajusta estos valores según tus necesidades */
+	right: 10px;  /* Ajusta estos valores según tus necesidades */
+	width: 300px; /* Ajusta el tamaño de la imagen */
+	height: auto;
+	pointer-events: none; /* Esto asegura que la imagen no interfiera con el canvas */
+}
+
+#watermark2 {
+	position: absolute;
+	top: 10px;    /* Ajusta estos valores según tus necesidades */
+	right: 320px;  /* Ajusta estos valores según tus necesidades */
+	width: 100px; /* Ajusta el tamaño de la imagen */
+	height: auto;
+	pointer-events: none; /* Esto asegura que la imagen no interfiera con el canvas */
+}
