@@ -1,28 +1,43 @@
-const markerSvg = `<svg viewBox="-4 0 36 36">
-    <path fill="currentColor" d="M14,0 C21.732,0 28,5.641 28,12.6 C28,23.963 14,36 14,36 C14,36 0,24.064 0,12.6 C0,5.641 6.268,0 14,0 Z"></path>
-    <circle fill="black" cx="14" cy="14" r="7"></circle>
-</svg>`;
+function markerSvg(isoCode) {
+    // Cambia el isoCode a minúsculas para que coincida con el nombre de archivo de la bandera.
+    const isoCodeLowerCase = isoCode.toLowerCase();
 
-let data; // Declara una variable para almacenar los datos
+    // Construye la URL de la imagen de la bandera.
+    const flagImageUrl = `assets/flags/1x1/${isoCodeLowerCase}.svg`;
 
+    return `<svg viewBox="-4 0 36 36" xmlns="http://www.w3.org/2000/svg">
+        <!-- Redondea las esquinas del marcador -->
+        <path fill="currentColor" d="M14,0 C21.732,0 28,5.641 28,12.6 C28,23.963 14,36 14,36 C14,36 0,24.064 0,12.6 C0,5.641 6.268,0 14,0 Z" rx="14"></path>
+        <!-- Reemplaza el contenido de <text> con la imagen de la bandera y ajusta su tamaño -->
+        <image x="4" y="4" width="20" height="20" xlink:href="${flagImageUrl}"></image>
+    </svg>`;
+}
+
+
+let data; // Variable para almacenar los datos de los países
+let countries = { features: [] }; // Variable para almacenar los datos GeoJSON de los países
 
 async function cargarDatos() {
     const response = await fetch('assets/data/public_countries.json');
-    data = await response.json(); // Almacena los datos en la variable data
+    data = await response.json(); // Almacena los datos de los países en la variable data
+
+    // Cargar datos GeoJSON para los polígonos de países
+    const countriesResponse = await fetch('assets/data/ne_110m_admin_0_countries.geojson');
+    countries = await countriesResponse.json();
 }
 
 cargarDatos().then(() => {
     // Crear el modal
     const modal = `
-        <div class="modal fade" id="countryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
+        <div class="modal" tabindex="-1" id="countryModal">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content bg-dark text-white">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="countryName">País clickeado</h5>
-                        <button type="button" class="btn-close" aria-label="Close" id="countryModalCloseButton"></button>
+                        <h5 class="modal-title" id="countryName">Modal title</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" id="countryModalCloseButton"></button>
                     </div>
                     <div class="modal-body">
-                        <p id="countryData"></p>
+                        <p id="countryData">Modal body text goes here.</p>
                     </div>
                 </div>
             </div>
@@ -32,14 +47,13 @@ cargarDatos().then(() => {
     // Agregar el modal al cuerpo del documento
     document.body.insertAdjacentHTML('beforeend', modal);
 
-    // Agregar evento para cerrar el modal al hacer clic en el botón de cierre (X)
+    // Agregar evento para cerrar el modal al hacer clic en el botón de cierre
     document.getElementById('countryModalCloseButton').addEventListener('click', () => {
         $('#countryModal').modal('hide');
     });
 
-    // Agregar evento para cerrar el modal al hacer clic en cualquier área fuera del modal
+    // Agregar evento para cerrar el modal al hacer clic fuera del modal
     $('#countryModal').on('hidden.bs.modal', () => {
-        // Limpiar el contenido del modal cuando se cierra
         $('#countryName').text('País clickeado');
         $('#countryData').text('');
     });
@@ -47,48 +61,48 @@ cargarDatos().then(() => {
     ReactDOM.render(
         <Globe
             globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+
             htmlElementsData={data.map(country => ({
                 lat: country.latitude,
                 lng: country.longitude,
-                size: 20, // Tamaño de los marcadores
-                color: 'red', // Color de los marcadores
-                name: country.name
+                size: 30,
+                color: 'white',
+                name: country.name,
+                ISO_A2: country.ISO_A2 // Asegúrate de que esta propiedad está disponible en tus datos
             }))}
+
+            hexPolygonsData={countries.features}
+            hexPolygonResolution={4}
+            hexPolygonMargin={0.3}
+            hexPolygonUseDots={true}
+            hexPolygonColor={() => `rgba(9, 118, 172, 0.5)`}
+            hexPolygonLabel={({ properties: d }) => `
+                    <b>${d.ADMIN} (${d.ISO_A2})</b> <br />
+                  `}
+
+
             backgroundColor='rgba(0,0,0,0)'
             htmlElement={d => {
                 const el = document.createElement('div');
-                el.innerHTML = markerSvg;
+                el.innerHTML = markerSvg(d.ISO_A2); // Usar la función markerSvg para poner la bandera
                 el.style.color = d.color;
                 el.style.width = `${d.size}px`;
-
-
                 el.style['pointer-events'] = 'auto';
                 el.style.cursor = 'pointer';
                 el.onclick = async () => {
                     try {
-                        // Obtener el nombre del país del marcador
                         const countryName = d.name;
-
-                        // Realizar una solicitud fetch para cargar los datos del archivo
                         const response = await fetch('assets/data/public_grouped.json');
-
-                        // Verificar si la respuesta es exitosa
                         if (!response.ok) {
                             throw new Error(`Error al cargar los datos: ${response.status}`);
                         }
-
-                        // Parsear los datos JSON utilizando la función json()
                         const grouped = await response.json();
-
-                        // Filtrar los datos por país
                         const filteredData = grouped.filter(country => country.country === countryName);
 
-                        // Crear la tabla HTML dinámicamente
-                        let tableHtml = '<table class="table table-striped-columns my-table-class">';
-                        tableHtml += '<thead><tr><th>Name</th><th>Country</th><th>City</th><th>Position</th><th>Mail</th></tr></thead>';
+                        // Crear una tabla con clases para tema oscuro
+                        let tableHtml = '<table class="table table-striped-columns my-table-class table-dark">';
+                        tableHtml += '<thead class="thead-light"><tr><th>Name</th><th>Country</th><th>City</th><th>Position</th><th>Mail</th></tr></thead>';
                         tableHtml += '<tbody>';
-
-                        // Recorrer los datos filtrados y agregar filas a la tabla
                         filteredData.forEach(country => {
                             country.rows.forEach(row => {
                                 tableHtml += '<tr>';
@@ -100,34 +114,24 @@ cargarDatos().then(() => {
                                 tableHtml += '</tr>';
                             });
                         });
-
                         tableHtml += '</tbody></table>';
-
-                        // Agregar la tabla al modal
                         $('#countryData').html(tableHtml);
-
-                        // Obtener el modal
                         const countryModal = $('#countryModal');
+                        $('#countryModal').addClass('modal-dark');
+                        // Aplicar estilos oscuros al modal
+                        countryModal.find('.modal-content').addClass('bg-dark text-white');
+                        countryModal.find('.modal-header').addClass('bg-dark text-white');
+                        countryModal.find('.modal-body').addClass('bg-dark text-white');
+                        countryModal.find('.modal-body').css('max-height', '400px').css('overflow-y', 'auto');
 
-                        // Establecer altura máxima y scroll si es necesario
-                        countryModal.find('.modal-body').css('max-height', '400px');
-                        countryModal.find('.modal-body').css('overflow-y', 'auto');
-
-                        // Actualizar el título del modal con el valor de countryName
                         countryModal.find('.modal-title').text(countryName);
 
-                        countryModal.addClass('custom-modal');
-                        // Mostrar el modal con la tabla de datos
+                        // Mostrar el modal
                         countryModal.modal('show');
-
-
                     } catch (error) {
                         console.error('Error al cargar los datos:', error);
                     }
                 };
-
-
-
 
                 return el;
             }}
