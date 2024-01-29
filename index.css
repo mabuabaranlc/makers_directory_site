@@ -40,3 +40,22 @@ html {
 	height: auto;
 	pointer-events: none; /* Esto asegura que la imagen no interfiera con el canvas */
 }
+
+/* Estilos para la barra de desplazamiento en el tema oscuro */
+.modal-dark .modal-body::-webkit-scrollbar {
+	width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+.modal-dark .modal-body::-webkit-scrollbar-track {
+	background: #2e2e2e; /* Color del riel de la barra de desplazamiento */
+}
+
+.modal-dark .modal-body::-webkit-scrollbar-thumb {
+	background-color: #888; /* Color de la barra de desplazamiento */
+	border-radius: 5px; /* Bordes redondeados */
+	border: 3px solid #2e2e2e; /* Borde y color de fondo */
+}
+
+.modal-dark .modal-body::-webkit-scrollbar-thumb:hover {
+	background: #555; /* Color al pasar el mouse */
+}
