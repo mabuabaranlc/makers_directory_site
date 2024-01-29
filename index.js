@@ -89,50 +89,7 @@ cargarDatos().then(() => {
                 el.style.width = `${d.size}px`;
                 el.style['pointer-events'] = 'auto';
                 el.style.cursor = 'pointer';
-                el.onclick = async () => {
-                    try {
-                        const countryName = d.name;
-                        const response = await fetch('assets/data/public_grouped.json');
-                        if (!response.ok) {
-                            throw new Error(`Error al cargar los datos: ${response.status}`);
-                        }
-                        const grouped = await response.json();
-                        const filteredData = grouped.filter(country => country.country === countryName);
-
-                        // Crear una tabla con clases para tema oscuro
-                        let tableHtml = '<table class="table table-striped-columns my-table-class table-dark">';
-                        tableHtml += '<thead class="thead-light"><tr><th>Name</th><th>Country</th><th>City</th><th>Position</th><th>Mail</th></tr></thead>';
-                        tableHtml += '<tbody>';
-                        filteredData.forEach(country => {
-                            country.rows.forEach(row => {
-                                tableHtml += '<tr>';
-                                tableHtml += `<td>${row.name}</td>`;
-                                tableHtml += `<td>${row.country}</td>`;
-                                tableHtml += `<td>${row.city}</td>`;
-                                tableHtml += `<td>${row.position}</td>`;
-                                tableHtml += `<td>${row.mail}</td>`;
-                                tableHtml += '</tr>';
-                            });
-                        });
-                        tableHtml += '</tbody></table>';
-                        $('#countryData').html(tableHtml);
-                        const countryModal = $('#countryModal');
-                        $('#countryModal').addClass('modal-dark');
-                        // Aplicar estilos oscuros al modal
-                        countryModal.find('.modal-content').addClass('bg-dark text-white');
-                        countryModal.find('.modal-header').addClass('bg-dark text-white');
-                        countryModal.find('.modal-body').addClass('bg-dark text-white');
-                        countryModal.find('.modal-body').css('max-height', '400px').css('overflow-y', 'auto');
-
-                        countryModal.find('.modal-title').text(countryName);
-
-                        // Mostrar el modal
-                        countryModal.modal('show');
-                    } catch (error) {
-                        console.error('Error al cargar los datos:', error);
-                    }
-                };
-
+                
                 return el;
             }}
         />,
