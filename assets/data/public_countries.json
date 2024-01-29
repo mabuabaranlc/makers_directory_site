@@ -2,51 +2,61 @@
   {
     "name": "Colombia",
     "latitude": 4.099917,
-    "longitude": -72.9088133
+    "longitude": -72.9088133,
+    "ISO_A2": "CO"
   },
   {
     "name": "Ecuador",
     "latitude": -1.3397668,
-    "longitude": -79.3666965
+    "longitude": -79.3666965,
+    "ISO_A2": "EC"
   },
   {
     "name": "Argentina",
     "latitude": -34.9964963,
-    "longitude": -64.9672817
+    "longitude": -64.9672817,
+    "ISO_A2": "AR"
   },
   {
     "name": "Bolivia",
     "latitude": -17.0568696,
-    "longitude": -64.9912286
+    "longitude": -64.9912286,
+    "ISO_A2": "BO"
   },
   {
     "name": "Peru",
     "latitude": -6.8699697,
-    "longitude": -75.0458515
+    "longitude": -75.0458515,
+    "ISO_A2": "PE"
   },
   {
     "name": "Nicaragua",
     "latitude": 12.6090157,
-    "longitude": -85.2936911
+    "longitude": -85.2936911,
+    "ISO_A2": "NI"
   },
   {
     "name": "Republica Dominicana",
     "latitude": 19.0974031,
-    "longitude": -70.3028026
+    "longitude": -70.3028026,
+    "ISO_A2": "DO"
   },
   {
     "name": "Uruguay",
     "latitude": -32.8755548,
-    "longitude": -56.0201525
+    "longitude": -56.0201525,
+    "ISO_A2": "UY"
   },
   {
     "name": "España",
     "latitude": 39.3260685,
-    "longitude": -4.8379791
+    "longitude": -4.8379791,
+    "ISO_A2": "ES"
   },
   {
     "name": "Honduras",
     "latitude": 15.2572432,
-    "longitude": -86.0755145
+    "longitude": -86.0755145,
+    "ISO_A2": "HN"
   }
 ]
