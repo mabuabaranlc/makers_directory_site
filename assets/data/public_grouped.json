@@ -97,13 +97,6 @@
         "mail": "alejandro@somosmakers.co"
       },
       {
-        "name": "July Marcela Úsuga Munera",
-        "country": "Colombia",
-        "city": "Medellín",
-        "position": "Analista de Proyectos",
-        "mail": "july@somosmakers.co"
-      },
-      {
         "name": "Carlos Andrés Mejía Escobar",
         "country": "Colombia",
         "city": "Sabaneta",
@@ -307,13 +300,6 @@
         "mail": "juan.zapata@somosmakers.co"
       },
       {
-        "name": "Andres Felipe Williams Suarez",
-        "country": "Colombia",
-        "city": "Sabaneta",
-        "position": "Lider tecnico",
-        "mail": "andres.felipe@somosmakers.co"
-      },
-      {
         "name": "Luisa Fernanda Lerma Parra",
         "country": "Colombia",
         "city": "Calí",
@@ -342,18 +328,18 @@
         "mail": "hernando@somosmakers.co"
       },
       {
-        "name": "Isabela Mejía Estrada",
+        "name": "Alexander Pineda Guzmán",
         "country": "Colombia",
-        "city": "Medellín",
-        "position": "Aprendiz de Gestión Humana",
-        "mail": "Isabela@Somosmakers.co"
+        "city": "Bogotá",
+        "position": "Desarrollador Java",
+        "mail": "alexander.pineda@Somosmakers.co"
       },
       {
-        "name": "Juan Angel Riaño Quintero",
+        "name": "Joseph Santiago Jimenez Jimenez",
         "country": "Colombia",
         "city": "Medelín",
         "position": "Aprendiz de Soporte",
-        "mail": "juan.riano@somosmakers.co"
+        "mail": "joseph@somosmakers.co"
       },
       {
         "name": "Julián Andrés Mesa Restrepo",
@@ -375,7 +361,49 @@
         "city": "Sabaneta",
         "position": "Líder de Equipo",
         "mail": "diana.mesa@somosmakers.co"
-      }
+      },
+      {
+        "name": "Miguel Ángel Oliva Vallejos",
+        "country": "Colombia",
+        "city": "Bogotá",
+        "position": "Ingeniero DevOps",
+        "mail": "diana.mesa@somosmakers.co"
+      },
+      {
+        "name": "Isabel Cristina Arias Argaez",
+        "country": "Colombia",
+        "city": "Sabaneta",
+        "position": "Arquitecta de Soluciones",
+        "mail": "isabel@somosmakers.co"
+      },
+      {
+        "name": "Alejandra Maria Ruiz Betancur",
+        "country": "Colombia",
+        "city": "Envigado",
+        "position": "Acelerador",
+        "mail": "Alejandra@somosmakers.co"
+      },
+      {
+        "name": "Betzabe Maria Salas Vergara",
+        "country": "Colombia",
+        "city": "Envigado",
+        "position": "Arquiotecta de Soluciones",
+        "mail": "Betzabea@somosmakers.co"
+      },
+      {
+        "name": "Erika Milena Nieto Agudelo",
+        "country": "Colombia",
+        "city": "Medellín",
+        "position": "Asistente Administrativa y Contable",
+        "mail": "milena@somosmakers.co"
+      },
+      {
+        "name": "Juan Santiago Arango Giraldo",
+        "country": "Colombia",
+        "city": "Medellín",
+        "position": "Desarrollador Java",
+        "mail": "Juansantiago@somosmakers.co"
+      } 
     ]
   },
   {
@@ -415,19 +443,7 @@
         "mail": "pamela@somosmakers.co"
       }
     ]
-  },
-  {
-    "country": "Honduras",
-    "rows": [
-      {
-        "name": "Kevin Gerardo Bueno Betancourth",
-        "country": "Honduras",
-        "city": "Tegucigalpa",
-        "position": "Acelerador",
-        "mail": "Kevin.bueno@somosmakers.co"
-      }
-    ]
-  },
+    },
   {
     "country": "Nicaragua",
     "rows": [
@@ -435,15 +451,8 @@
         "name": "Francisco Javier Areas Rios",
         "country": "Nicaragua",
         "city": "Managua",
-        "position": "Analista Desarrollador .NET",
+        "position": "Líder Técnico",
         "mail": "javier@somosmakers.co"
-      },
-      {
-        "name": "Carlos Efren Pérez Sánchez",
-        "country": "Nicaragua",
-        "city": "Managua",
-        "position": "Analista Desarrollador .NET",
-        "mail": "Carlos.perez@somosmakers.co"
       }
     ]
   },
