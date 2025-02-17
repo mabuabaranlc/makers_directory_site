@@ -8,21 +8,7 @@
         "city": "Gran Buenos Aires",
         "position": "Analista QA Funcional",
         "mail": "isilreiberth@somosmakers.co"
-      },
-      {
-        "name": "Eduardo Antonio Jimenez Garcia",
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "position": "Analista Desarrollador BI",
-        "mail": "eduardo@somosmakers.co"
-      },
-      {
-        "name": "Mariano Nicolas Curia Bravo",
-        "country": "Argentina",
-        "city": "Tucumán",
-        "position": "Analista QA Funcional",
-        "mail": "Mariano@somosmakers.co"
-      }
+    }
     ]
   },
   {
@@ -48,14 +34,7 @@
         "city": "Sucre",
         "position": "Analista Desarrollador .NET",
         "mail": "Cristof@Somosmakers.co"
-      },
-      {
-        "name": "José Ignacio Mamani Murga",
-        "country": "Bolivia",
-        "city": "La Paz",
-        "position": "Ingeniero de Datos ",
-        "mail": "joseignacio@somosmakers.co"
-      }
+    }
     ]
   },
   {
@@ -272,18 +251,18 @@
         "mail": "juandiego@somosmakers.co"
       },
       {
-        "name": "Jonatan Espinosa Álvarez",
+        "name": "Isabel Cristina Arias Argaez ",
         "country": "Colombia",
         "city": "Sabaneta",
-        "position": "Arquitecto de Soluciones",
-        "mail": "Jonatan.espinosa@somosmakers.co"
+        "position": "Arquitecta de Soluciones",
+        "mail": "isabel@somosmakers.co"
       },
       {
-        "name": "Daniela Nicholls Acevedo",
+        "name": "Luisa Fernanda Lerma Parra",
         "country": "Colombia",
-        "city": "Medellín",
-        "position": "Líder Administrativa y Financiera",
-        "mail": "daniela@somosmakers.co"
+        "city": "Cali",
+        "position": "Arquitecta de Procesos",
+        "mail": "Luisa@somosmakers.co"
       },
       {
         "name": "Yezenia Yepes Rojas",
@@ -314,11 +293,11 @@
         "mail": "camila@somosmakers.co"
       },
       {
-        "name": "Daniel Esteban Valero Galeano",
+        "name": "Juan Diego Pimentel Tenjo",
         "country": "Colombia",
-        "city": "Bogotá",
-        "position": "Ingeniero de Datos ",
-        "mail": "Daniel.valero@somosmakers.co"
+        "city": "Neiva",
+        "position": "Desarrollador de Software",
+        "mail": "juan.pimentel@somosmakers.co"
       },
       {
         "name": "Hernando Rafael Reines Villero",
@@ -328,18 +307,18 @@
         "mail": "hernando@somosmakers.co"
       },
       {
-        "name": "Alexander Pineda Guzmán",
+        "name": "Andres David Muñoz Loaiza",
         "country": "Colombia",
-        "city": "Bogotá",
-        "position": "Desarrollador Java",
-        "mail": "alexander.pineda@Somosmakers.co"
+        "city": "Medellín",
+        "position": "Desarrollador de Software",
+        "mail": "andres.munoz@Somosmakers.co"
       },
       {
-        "name": "Joseph Santiago Jimenez Jimenez",
+        "name": "Didier Restrepo Bravo",
         "country": "Colombia",
-        "city": "Medelín",
-        "position": "Aprendiz de Soporte",
-        "mail": "joseph@somosmakers.co"
+        "city": "Neiva",
+        "position": "Arquitecto de Software",
+        "mail": "didier@somosmakers.co"
       },
       {
         "name": "Julián Andrés Mesa Restrepo",
@@ -384,11 +363,11 @@
         "mail": "Alejandra@somosmakers.co"
       },
       {
-        "name": "Betzabe Maria Salas Vergara",
+        "name": "Gabriel José Gónzalez Hodwalker",
         "country": "Colombia",
-        "city": "Envigado",
-        "position": "Arquiotecta de Soluciones",
-        "mail": "Betzabea@somosmakers.co"
+        "city": "Barranquilla",
+        "position": "Desarrollador de Software",
+        "mail": "Gabriel@somosmakers.co"
       },
       {
         "name": "Erika Milena Nieto Agudelo",
@@ -403,7 +382,91 @@
         "city": "Medellín",
         "position": "Desarrollador Java",
         "mail": "Juansantiago@somosmakers.co"
-      } 
+      },
+      {
+        "name": "Harrinson Calderón Figueroa",
+        "country": "Colombia",
+        "city": "Bogotá",
+        "position": "Desarrollador de software",
+        "mail": "Harrinson@somosmakers.co"
+      },
+      {
+        "name": "Valentina Gutierrez Puentes",
+        "country": "Colombia",
+        "city": "Neiva",
+        "position": "Analista QA",
+        "mail": "Valentina.gutierrez@somosmakers.co"
+      },
+      {
+        "name": "Valentina Clavijo Cordero",
+        "country": "Colombia",
+        "city": "Medellín",
+        "position": "Analista de Automatización",
+        "mail": "Valentina@somosmakers.co"
+      },
+      {
+        "name": "Cristian de Jesus Villalobos Barrios",
+        "country": "Colombia",
+        "city": "Cartagena",
+        "position": "Desarrollador de Software",
+        "mail": "Cristian@somosmakers.co"
+      },
+      {
+        "name": "Jhon Edison Feria Sanabria",
+        "country": "Colombia",
+        "city": "Bogotá",
+        "position": "Desarrollador de Software",
+        "mail": "Edison@somosmakers.co"
+      },
+      {
+        "name": "Fabian Ricardo Paez Hernandez",
+        "country": "Colombia",
+        "city": "Bogotá",
+        "position": "Ingeniero de datos",
+        "mail": "Fabian@somosmakers.co"
+      },
+      {
+        "name": "Luisa Fernanda Lotero Alvarez",
+        "country": "Colombia",
+        "city": "Bello",
+        "position": "Analista QA",
+        "mail": "Luisa.lotero@somosmakers.co" 
+      },
+      {
+        "name": "Alejandra Gil Rodriguez",
+        "country": "Colombia",
+        "city": "Bello",
+        "position": "Líder Financiera y AdministrativaA",
+        "mail": "Alejandra.gil@somosmakers.co" 
+       },
+      {
+        "name": "Samuel Sanchez Restrepo",
+        "country": "Colombia",
+        "city": "Medellín",
+        "position": "Aprendiz Mesa de Ayuda",
+        "mail": "Samuel@somosmakers.co" 
+      },
+      {
+        "name": "Leidy Marcela Ballesteros Acosta",
+        "country": "Colombia",
+        "city": "Medellín",
+        "position": "Aprendiz Talento",
+        "mail": "Marcela@somosmakers.co" 
+      },
+      {
+        "name": "Carolina Restrepo Cadavid",
+        "country": "Colombia",
+        "city": "Rionegro",
+        "position": "Directora de Talento Humano",
+        "mail": "Carolina@somosmakers.co" 
+      },
+      {
+        "name": "Erica Maria Lopera Alvarez",
+        "country": "Colombia",
+        "city": "La Estrella",
+        "position": "Líder de Experiencias",
+        "mail": "maria@somosmakers.co" 
+       } 
     ]
   },
   {
