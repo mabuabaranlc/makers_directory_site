@@ -492,19 +492,7 @@
         "city": "Quito",
         "position": "Analista Desarrollador .NET",
         "mail": "Marcelo@somosmakers.co"
-      }
-    ]
-  },
-  {
-    "country": "España",
-    "rows": [
-      {
-        "name": "Pamela Isabel Almonte Paulino",
-        "country": "España",
-        "city": "Madrid",
-        "position": "Analista Funcional de Proyectos",
-        "mail": "pamela@somosmakers.co"
-      }
+    }
     ]
     },
   {
@@ -530,33 +518,12 @@
         "mail": "jhomy@somosmakers.co"
       },
       {
-        "name": "Alfredo Condor Fernández",
-        "country": "Peru",
-        "city": "Tingomaria",
-        "position": "Automatizador QA",
-        "mail": "alfredo@somosmakers.co"
-      },
-      {
-        "name": "Alexander Benedic Davila Rosales",
-        "country": "Peru",
-        "city": "Lima",
-        "position": "Ingeniero de Datos ",
-        "mail": "Alexander@somosmakers.co"
-      },
-      {
         "name": "Peter Jesús Zegarra Cardenas",
         "country": "Peru",
         "city": "Lima",
         "position": "Automatizador QA",
         "mail": "peter@somosmakers.co"
-      },
-      {
-        "name": "Cristhian Jesús Terris",
-        "country": "Peru",
-        "city": "Santa Maria de Lurigancho",
-        "position": "Analista Desarrollador Java",
-        "mail": "Cristhian@somosmakers.co"
-      }
+     }
     ]
   },
   {
