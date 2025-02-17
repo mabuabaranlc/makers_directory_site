@@ -54,9 +54,9 @@
     "ISO_A2": "ES"
   },
   {
-    "name": "Honduras",
-    "latitude": 15.2572432,
-    "longitude": -86.0755145,
-    "ISO_A2": "HN"
+    "name": "Chile",
+    "latitude": 33.5,
+    "longitude": 70.65,
+    "ISO_A2": "CL"
   }
 ]
