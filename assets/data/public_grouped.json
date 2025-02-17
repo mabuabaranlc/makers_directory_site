@@ -603,7 +603,14 @@
         "city": "San Francisco de Marcois",
         "position": "Analista Desarrollador .NET",
         "mail": "danny@somosmakers.co"
-      }
+      },
+      {
+        "name": "Joelyn Diosberlys de la Rosa Payano",
+        "country": "Republica Dominicana",
+        "city": "San Francisco de Marcois",
+        "position": "Analista QA",
+        "mail": "Joelyn@somosmakers.co"
+    }
     ]
   },
   {
@@ -615,6 +622,21 @@
         "city": "Montevideo",
         "position": "Analista QA Funcional",
         "mail": "Leina@Somosmakers.co"
+    }
+    ]
+  },
+  {
+    "country": "Chile",
+    "rows": [
+      {
+        "name": "German Alexander Tocuyo Suarez",
+        "country": "Chile",
+        "city": "Santiago de Chile",
+        "position": "Analista Desarrollador",
+        "mail": "German@somosmakers.co"
+      },
+      {
+      
       }
     ]
   }
