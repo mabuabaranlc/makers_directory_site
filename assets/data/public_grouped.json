@@ -429,7 +429,7 @@
         "name": "Samuel Sanchez Restrepo",
         "country": "Colombia",
         "city": "Medellín",
-        "position": "Aprendiz Mesa de Ayuda",
+        "position": "Analista de Soporte y Desarrollo",
         "mail": "Samuel@somosmakers.co" 
       },
       {
@@ -452,7 +452,35 @@
         "city": "La Estrella",
         "position": "Líder de Experiencias",
         "mail": "maria@somosmakers.co" 
-       } 
+      },
+      {
+        "name": "Camilo Alberto Nuñez Mendivelso",
+        "country": "Colombia",
+        "city": "Bogotá",
+        "position": "Arquitecto de Soluciones",
+        "mail": "camilo.nunez@somosmakers.co" 
+      },
+      {
+        "name": "Laura Daniela Valencia Polo",
+        "country": "Colombia",
+        "city": "Medellín",
+        "position": "Desarrolladora de Software",
+        "mail": "laura.valencia@somosmakers.co" 
+      },
+      {
+        "name": "Johan Sebastian Ramirez Triana",
+        "country": "Colombia",
+        "city": "Madrid-Cundinamarca",
+        "position": "Desarrollador de Software",
+        "mail": "sebastian.ramirez@somosmakers.co"
+        },
+      {
+        "name": "Santiago Roldan Silva",
+        "country": "Colombia",
+        "city": "Restrepo-Meta",
+        "position": "Desarrollador de Software",
+        "mail": "santiago.roldan@somosmakers.co"
+      } 
     ]
   },
   {
