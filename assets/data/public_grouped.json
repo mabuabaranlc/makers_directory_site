@@ -6,7 +6,7 @@
         "name": "Isilreiberth Jose Pérez Rodríguez",
         "country": "Argentina",
         "city": "Gran Buenos Aires",
-        "position": "Analista QA Funcional",
+        "position": "Automatizador QA",
         "mail": "isilreiberth@somosmakers.co"
     }
     ]
@@ -18,21 +18,21 @@
         "name": "Raiden Makio Tomori",
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
-        "position": "Analista Desarrollador .NET",
+        "position": "Analista Desarrollador",
         "mail": "raiden@somosmakers.co"
       },
       {
         "name": "Edgar Humberto Delgadillo Delgadillo",
         "country": "Bolivia",
         "city": "Sucre",
-        "position": "Analista Desarrollador .NET",
+        "position": "Analista Desarrollador",
         "mail": "Edgar.delgadillo@somosmakers.co"
       },
       {
         "name": "Cristof Alejandro Lora Avendaño",
         "country": "Bolivia",
         "city": "Sucre",
-        "position": "Analista Desarrollador .NET",
+        "position": "Líder Técnico",
         "mail": "Cristof@Somosmakers.co"
     }
     ]
@@ -72,7 +72,7 @@
         "name": "Alejandro Henao Palacio",
         "country": "Colombia",
         "city": "Envigado",
-        "position": "Arquitecto de Soluciones",
+        "position": "Experto de Plataforma",
         "mail": "alejandro@somosmakers.co"
       },
       {
@@ -86,21 +86,21 @@
         "name": "Juan Camilo Echeverry Gil",
         "country": "Colombia",
         "city": "Puerto Berrio",
-        "position": "Lider de equipo junior",
+        "position": "Acelerador",
         "mail": "juan@somosmakers.co"
       },
       {
         "name": "Carlos Alejandro Gallo Gómez",
         "country": "Colombia",
         "city": "Medellín",
-        "position": "Analista de Soporte y Desarrollo",
+        "position": "Analista desarrollador",
         "mail": "carlosalejandro@somosmakers.co"
       },
       {
         "name": "Eduar Enrique Ortega Ipaz",
         "country": "Colombia",
         "city": "Tuquerres,",
-        "position": "Analista Desarrollador Java",
+        "position": "Analista Desarrollador",
         "mail": "eduar@somosmakers.co"
       },
       {
@@ -114,7 +114,7 @@
         "name": "Diego Alonso Arias Hernández",
         "country": "Colombia",
         "city": "Manizales",
-        "position": "Analista Desarrollador .NET",
+        "position": "Analista Desarrollador",
         "mail": "diego.arias@somosmakers.co"
       },
       {
@@ -135,7 +135,7 @@
         "name": "Edgar Eduardo Rojas Rojas",
         "country": "Colombia",
         "city": "Medellín",
-        "position": "Líder de Equipo",
+        "position": "Arquitecto de Procesos",
         "mail": "edgar@somosmakers.co"
       },
       {
@@ -170,7 +170,7 @@
         "name": "Paula Andrea Giraldo Zuluaga",
         "country": "Colombia",
         "city": "Medellín",
-        "position": "Líder Mesa de Ayuda",
+        "position": "Líder Equipo de Apoyo al Cliente",
         "mail": "paula@somosmakers.co"
       },
       {
@@ -205,7 +205,7 @@
         "name": "Santiago Builes Monsalve",
         "country": "Colombia",
         "city": "Medellín",
-        "position": "Arquitecto de Procesos",
+        "position": "Acelerador",
         "mail": "santiago@somosmakers.co"
       },
       {
@@ -272,11 +272,11 @@
         "mail": "yezenia@somosmakers.co"
       },
       {
-        "name": "Juan Sebastián Zapata Llano",
+        "name": "Vanessa Alzate Martínez",
         "country": "Colombia",
         "city": "Envigado",
-        "position": "Arquitecto de Soluciones",
-        "mail": "juan.zapata@somosmakers.co"
+        "position": "Analista de Operaciones",
+        "mail": "Vanessa@somosmakers.co"
       },
       {
         "name": "Camila Andrea Gómez Ardila",
@@ -286,11 +286,11 @@
         "mail": "camila@somosmakers.co"
       },
       {
-        "name": "Juan Diego Pimentel Tenjo",
+        "name": "Alexis Naranjo Ceballos",
         "country": "Colombia",
-        "city": "Neiva",
-        "position": "Desarrollador de Software",
-        "mail": "juan.pimentel@somosmakers.co"
+        "city": "Medellín",
+        "position": "Arquitecto de Soluciones",
+        "mail": "Alexis@somosmakers.co"
       },
       {
         "name": "Hernando Rafael Reines Villero",
@@ -450,7 +450,7 @@
         "name": "Erica Maria Lopera Alvarez",
         "country": "Colombia",
         "city": "La Estrella",
-        "position": "Líder de Experiencias",
+        "position": "Líder de Comunicaciones y Experiencias",
         "mail": "maria@somosmakers.co" 
       },
       {
@@ -480,8 +480,91 @@
         "city": "Restrepo-Meta",
         "position": "Desarrollador de Software",
         "mail": "santiago.roldan@somosmakers.co"
-      } 
-    ]
+      },
+      {
+        "name": "Gustavo Eduardo Gil Prado",
+        "country": "Colombia",
+        "city": "Popayan-Cauca",
+        "position": "Desarrollador de Software",
+        "mail": "gustavon@somosmakers.co"} 
+     },
+      {
+        "name": "Walter Andres Casas Guerrero",
+        "country": "Colombia",
+        "city": "Bello-Antioquia",
+        "position": "Desarrollador de Software",
+        "mail": "andres.casas@somosmakers.co"} 
+     },
+      {
+        "name": "Alvaro Javier Morales Arias",
+        "country": "Colombia",
+        "city": "Fusagasuga",
+        "position": "Líder QA",
+        "mail": "javier.morales@somosmakers.co"} 
+     },
+      {
+        "name": "John Sebastian Rodriguez Rodriguez",
+        "country": "Colombia",
+        "city": "Bogotá",
+        "position": "Desarrollador de software",
+        "mail": "sebastian.rodriguez@somosmakers.co"} 
+     },
+      {
+        "name": "Diego Armando Borja Padilla",
+        "country": "Colombia",
+        "city": "Cartagena",
+        "position": "Desarrollador de software",
+        "mail": "Diego.borja@somosmakers.co"} 
+    },
+      {
+        "name": "Jose Ricardo Vasquez Vega",
+        "country": "Colombia",
+        "city": "Bogotá",
+        "position": "Desarrollador de software",
+        "mail": "ricardo.vasquez@somosmakers.co"} 
+    },
+      {
+        "name": "Jhon Freddy Castro Madrid",
+        "country": "Colombia",
+        "city": "Armenia",
+        "position": "Desarrollador de software",
+        "mail": "jhon.castro@somosmakers.co"}
+    },
+      {
+        "name": "Nicolas Duarte Moreno",
+        "country": "Colombia",
+        "city": "Cali",
+        "position": "Desarrollador de software",
+        "mail": "nicolas@somosmakers.co"}
+},
+      {
+        "name": "Eder Andres Chavez Ruiz",
+        "country": "Colombia",
+        "city": "Florida-Valle del Cauca",
+        "position": "Desarrollador de software",
+        "mail": "andres.chavez@somosmakers.co"}
+    },
+      {
+        "name": "Ruben Santiago Urrego Avendaño",
+        "country": "Colombia",
+        "city": "Villavicencio-Meta",
+        "position": "Desarrollador de software",
+        "mail": "santiago.urrego@somosmakers.co"}
+},
+      {
+        "name": "Daniel Santiago Rodriguez Pineda",
+        "country": "Colombia",
+        "city": "Villavicencio-Meta",
+        "position": "Desarrollador de software",
+        "mail": "daniel.rodriguez@somosmakers.co"}
+},
+      {
+        "name": "Johan Camilo Montero Muñoz",
+        "country": "Colombia",
+        "city": "Bogotá",
+        "position": "Acelerador",
+        "mail": "Johan@somosmakers.co"}
+]
   },
   {
     "country": "Ecuador",
