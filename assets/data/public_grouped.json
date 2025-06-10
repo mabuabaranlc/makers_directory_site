@@ -486,7 +486,7 @@
         "country": "Colombia",
         "city": "Popayan-Cauca",
         "position": "Desarrollador de Software",
-        "mail": "gustavon@somosmakers.co"} 
+        "mail": "gustavon@somosmakers.co" 
       },
       {
         "name": "Walter Andres Casas Guerrero",
@@ -589,7 +589,14 @@
         "city": "Quito",
         "position": "Analista Desarrollador .NET",
         "mail": "Marcelo@somosmakers.co"
-    }
+      },
+      {
+        "name": "Lenin Antonio Ormaza Alvarez",
+        "country": "Ecuador",
+        "city": "Quito",
+        "position": "Analista Desarrollador",
+        "mail": "Lenin@somosmakers.co"
+      }
     ]
     },
   {
@@ -639,13 +646,6 @@
         "city": "San Francisco de Marcois",
         "position": "Analista Desarrollador .NET",
         "mail": "albert@somosmakers.co"
-      },
-      {
-        "name": "Anthony Manuel Barrera Hidalgo",
-        "country": "Republica Dominicana",
-        "city": "San Francisco de Marcois",
-        "position": "Analista Desarrollador .NET",
-        "mail": "Anthony@somosmakers.co"
       },
       {
         "name": "William Burgos Hernández",
